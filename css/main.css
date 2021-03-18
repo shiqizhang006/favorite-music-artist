@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+}
+
+img{
+    width: 100%;
+}
+
+.logo {
+    width: 160px;
+}
+
+.nav-primary {
+    padding: 20px 10px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.16);
+    position: sticky;
+    top: 0;
+    background: white;
+}
+
+.mx-8 {
+    margin: 0 8px;
+}
+
+.bq {
+    border-left: 10px solid black;
+    margin: 0;
+    padding-left: 10px; 
+}
+
+.remove-margin-top {
+    margin-top: 0;
+}
+
+/* Desktop Styles */
+@media (min-width: 767px) {
+    .header {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .header > * {
+        flex: 1 0;
+    }
+
+    .hv-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h-center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .max-width-400 {
+        max-width: 400px;
+    }
+
+    .albums {
+        display: flex;
+    }
+
+    .albums > div {
+        flex: 1 0;
+        margin: 0 10px;
+    }
+
+    .albums > div:first-child {
+        margin-left: 0;
+    }
+
+    .albums > div:last-child {
+        margin-right: 0;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .flex > * {
+        flex: 1 0;
+    }
+}
